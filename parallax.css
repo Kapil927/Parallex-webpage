@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+#container{
+    display: flex;
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+}
+.D3{
+    position: absolute;
+}
+h1{
+    color: white;
+    font-size: 135px;
+    align-self: center;
+    position: absolute;
+    top:100px;
+    text-shadow: 3px 3px 8px black;
+}
+img{
+    height: 50%;
+}
+#bg{
+    transform: translateZ(-40PX) scale(4); 
+    z-index: -1;
+    object-fit: cover;   
+}
+#fg{
+    transform: translateZ(-27PX) scale(3);
+    z-index: -1;
+    object-fit: cover;
+}
+h2{
+    font-size: 5rem;
+}
+p{
+    font-size:24px; 
+}
+section{  
+    position:relative;
+    background-color: rgb(55, 52, 52);
+    color: white; 
+    height: 400vh; 
+    padding: ;
+}
+#heading{
+         position: relative;
+         top: 80px;
+         left: 150px;
+}
+#para{
+    width: 1210px;
+    position: relative;
+    top: 80px;
+    left: 150px;
+}
+h3{
+    display: inline;
+    color: #000;
+    font-size: 2rem;
+    background-color: aliceblue;
+    opacity: 1;
+    position: absolute;
+    left: 650px;
+    top: 210px;
+}
+.s{
+  position:relative;
+  top: 140px;
+  height: 500px;
+  width: 100%;  
+}
+#s1{
+    background-image: url(sport-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#s2{
+    position: relative;
+    top: 250px;
+    background-image: url(sport-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#s3{    
+    position: relative;
+    top:330px;
+    background-image: url(sport-3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.content-para{
+    width: 1210px;
+    position: relative;
+    top: 200px;
+    left: 150px;
+}
+.content-2{
+    position: relative;
+    top:300px;
+    left: 150px;
+    width:1210px;
+}
+.content-3{
+    position: relative;
+    top:340px;
+    left: 150px;
+    width:1210px;
+}
